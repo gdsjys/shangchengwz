@@ -137,38 +137,6 @@ const TemplatesCenter = () => {
           ))}
         </div>
 
-        <Card className="bg-card border-border mb-8">
-          <CardHeader>
-            <CardTitle>{language === 'zh' ? '模板特色' : 'Template Features'}</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center p-6 border border-border rounded-lg">
-                <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                <p className="text-muted-foreground">
-                  {language === 'zh' ? '响应式设计' : 'Responsive Design'}
-                </p>
-              </div>
-              <div className="text-center p-6 border border-border rounded-lg">
-                <div className="text-3xl font-bold text-primary mb-2">
-                  {language === 'zh' ? '即插即用' : 'Plug & Play'}
-                </div>
-                <p className="text-muted-foreground">
-                  {language === 'zh' ? '开箱即用' : 'Ready to Use'}
-                </p>
-              </div>
-              <div className="text-center p-6 border border-border rounded-lg">
-                <div className="text-3xl font-bold text-primary mb-2">
-                  {language === 'zh' ? '定制' : 'Customizable'}
-                </div>
-                <p className="text-muted-foreground">
-                  {language === 'zh' ? '易于定制' : 'Easy to Customize'}
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-6">
             {language === 'zh' ? '精选模板' : 'Featured Templates'}
