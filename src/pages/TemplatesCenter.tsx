@@ -1,4 +1,4 @@
-import { Layout, Smartphone, ShoppingCart, Briefcase, Palette, Code2, Layers, Sparkles, Globe, Zap } from 'lucide-react';
+import { Palette, Code2, Sparkles, Globe, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -6,33 +6,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 const TemplatesCenter = () => {
   const { language } = useLanguage();
-
-  const categories = [
-    {
-      icon: Layout,
-      title: language === 'zh' ? '网站模板' : 'Website Templates',
-      description: language === 'zh' ? '各类网站UI模板，响应式设计' : 'Various website UI templates with responsive design',
-      count: '200+',
-    },
-    {
-      icon: Smartphone,
-      title: language === 'zh' ? '移动应用模板' : 'Mobile App Templates',
-      description: language === 'zh' ? 'iOS和Android应用界面模板' : 'iOS and Android app interface templates',
-      count: '150+',
-    },
-    {
-      icon: ShoppingCart,
-      title: language === 'zh' ? '电商模板' : 'E-commerce Templates',
-      description: language === 'zh' ? '完整的电商系统UI模板' : 'Complete e-commerce system UI templates',
-      count: '100+',
-    },
-    {
-      icon: Briefcase,
-      title: language === 'zh' ? '企业模板' : 'Business Templates',
-      description: language === 'zh' ? '专业的企业官网模板' : 'Professional corporate website templates',
-      count: '120+',
-    },
-  ];
 
   const templates = [
     {
@@ -100,43 +73,6 @@ const TemplatesCenter = () => {
   return (
     <div className="min-h-screen pt-24 px-4">
       <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            {language === 'zh' ? '更多模板' : 'More Templates'}
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            {language === 'zh' 
-              ? '精美的UI模板库，加速您的项目开发'
-              : 'Beautiful UI template library to accelerate your project development'}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          {categories.map((category, index) => (
-            <Card key={index} className="bg-card border-border hover:border-primary/50 transition-all group">
-              <CardHeader>
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                    <category.icon className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div className="flex-1">
-                    <CardTitle className="mb-2">{category.title}</CardTitle>
-                    <CardDescription>{category.description}</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-primary">{category.count}</span>
-                  <Button variant="secondary">
-                    {language === 'zh' ? '浏览模板' : 'Browse Templates'}
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-6">
             {language === 'zh' ? '精选模板' : 'Featured Templates'}
