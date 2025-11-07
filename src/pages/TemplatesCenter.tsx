@@ -37,63 +37,63 @@ const TemplatesCenter = () => {
   const templates = [
     {
       id: 1,
-      name: language === 'zh' ? 'VPN源码商城模板01' : 'VPN Source Mall Template 01',
-      category: language === 'zh' ? '电商系统' : 'E-commerce',
-      description: language === 'zh' ? '完整的VPN源码商城系统，包含用户管理、订单系统、支付集成' : 'Complete VPN source mall system with user management, order system, payment integration',
+      name: language === 'zh' ? 'VPN源码商城·模板01' : 'VPN Source Mall Template 01',
+      category: language === 'zh' ? 'Flutter应用' : 'Flutter App',
+      description: language === 'zh' ? '现成UI，前端采用Flutter，适用于IOS与安卓。' : 'Ready-made UI, frontend using Flutter, suitable for iOS and Android.',
       features: language === 'zh' 
-        ? ['响应式设计', '多语言支持', '支付集成', '后台管理']
-        : ['Responsive Design', 'Multi-language', 'Payment Integration', 'Admin Panel'],
-      tag: language === 'zh' ? '热门' : 'Popular'
+        ? ['Flutter框架', 'iOS适配', 'Android适配', '现成UI']
+        : ['Flutter Framework', 'iOS Compatible', 'Android Compatible', 'Ready UI'],
+      tag: language === 'zh' ? '热门' : 'Popular',
+      image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/11379024/280058_637515.jpeg',
+      buyLink: 'https://fqmpprrl.aisupermall.com/index.php/product/openvpn-and-other-protocol-source-code/'
     },
     {
       id: 2,
-      name: language === 'zh' ? 'SaaS服务平台模板' : 'SaaS Service Platform Template',
-      category: language === 'zh' ? 'SaaS平台' : 'SaaS Platform',
-      description: language === 'zh' ? '现代化SaaS服务平台UI，包含订阅管理、用户仪表板' : 'Modern SaaS service platform UI with subscription management and user dashboard',
+      name: language === 'zh' ? 'VPN源码商城·模板02' : 'VPN Source Mall Template 02',
+      category: language === 'zh' ? 'Flutter应用' : 'Flutter App',
+      description: language === 'zh' ? '现成UI，前端采用Flutter，适用于IOS与安卓。' : 'Ready-made UI, frontend using Flutter, suitable for iOS and Android.',
       features: language === 'zh'
-        ? ['订阅系统', '数据可视化', '实时通知', 'API集成']
-        : ['Subscription System', 'Data Visualization', 'Real-time Notifications', 'API Integration'],
-      tag: language === 'zh' ? '新品' : 'New'
+        ? ['Flutter框架', 'iOS适配', 'Android适配', '现成UI']
+        : ['Flutter Framework', 'iOS Compatible', 'Android Compatible', 'Ready UI'],
+      tag: language === 'zh' ? '新品' : 'New',
+      image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/11379024/682503_879033.jpeg',
+      buyLink: 'https://fqmpprrl.aisupermall.com/index.php/product/ss-ss2/'
     },
     {
       id: 3,
-      name: language === 'zh' ? '移动应用官网模板' : 'Mobile App Landing Template',
-      category: language === 'zh' ? '落地页' : 'Landing Page',
-      description: language === 'zh' ? '专业的移动应用展示官网，包含功能介绍、下载链接' : 'Professional mobile app showcase website with feature introduction and download links',
+      name: language === 'zh' ? 'VPN源码商城·模板03' : 'VPN Source Mall Template 03',
+      category: language === 'zh' ? 'Flutter应用' : 'Flutter App',
+      description: language === 'zh' ? '现成UI，前端采用Flutter，适用于IOS与安卓。' : 'Ready-made UI, frontend using Flutter, suitable for iOS and Android.',
       features: language === 'zh'
-        ? ['精美动画', '下载统计', '用户评价', 'SEO优化']
-        : ['Beautiful Animations', 'Download Analytics', 'User Reviews', 'SEO Optimized'],
-      tag: language === 'zh' ? '推荐' : 'Featured'
+        ? ['Flutter框架', 'iOS适配', 'Android适配', '现成UI']
+        : ['Flutter Framework', 'iOS Compatible', 'Android Compatible', 'Ready UI'],
+      tag: language === 'zh' ? '推荐' : 'Featured',
+      image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_1/11379024/321835_517232.jpeg',
+      buyLink: 'https://fqmpprrl.aisupermall.com/index.php/product/ss-ss2/'
     },
     {
       id: 4,
-      name: language === 'zh' ? '企业官网模板' : 'Corporate Website Template',
-      category: language === 'zh' ? '企业站' : 'Corporate',
-      description: language === 'zh' ? '专业企业官网设计，包含公司介绍、产品展示、联系方式' : 'Professional corporate website design with company intro, product showcase, contact info',
+      name: language === 'zh' ? 'VPN源码商城·模板04' : 'VPN Source Mall Template 04',
+      category: language === 'zh' ? 'Flutter应用' : 'Flutter App',
+      description: language === 'zh' ? '现成UI，前端采用Flutter，适用于IOS与安卓。' : 'Ready-made UI, frontend using Flutter, suitable for iOS and Android.',
       features: language === 'zh'
-        ? ['多页面布局', '团队展示', '案例展示', '表单系统']
-        : ['Multi-page Layout', 'Team Showcase', 'Case Studies', 'Form System'],
-      tag: ''
+        ? ['Flutter框架', 'iOS适配', 'Android适配', '现成UI']
+        : ['Flutter Framework', 'iOS Compatible', 'Android Compatible', 'Ready UI'],
+      tag: '',
+      image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_1/11379024/492806_117772.jpeg',
+      buyLink: 'https://fqmpprrl.aisupermall.com/index.php/product/ss-ss2/'
     },
     {
       id: 5,
-      name: language === 'zh' ? '在线商城模板' : 'Online Store Template',
-      category: language === 'zh' ? '电商' : 'E-commerce',
-      description: language === 'zh' ? '功能完整的在线商城系统，支持商品管理、购物车、结算' : 'Full-featured online store system with product management, shopping cart, checkout',
+      name: language === 'zh' ? 'VPN源码商城·模板05' : 'VPN Source Mall Template 05',
+      category: language === 'zh' ? 'Flutter应用' : 'Flutter App',
+      description: language === 'zh' ? '现成UI，前端采用Flutter，适用于IOS与安卓。' : 'Ready-made UI, frontend using Flutter, suitable for iOS and Android.',
       features: language === 'zh'
-        ? ['商品搜索', '购物车', '订单追踪', '会员系统']
-        : ['Product Search', 'Shopping Cart', 'Order Tracking', 'Membership System'],
-      tag: language === 'zh' ? '热门' : 'Popular'
-    },
-    {
-      id: 6,
-      name: language === 'zh' ? '博客/内容平台模板' : 'Blog/Content Platform Template',
-      category: language === 'zh' ? '内容平台' : 'Content Platform',
-      description: language === 'zh' ? '现代化博客和内容发布平台，支持文章管理、评论系统' : 'Modern blog and content publishing platform with article management and comment system',
-      features: language === 'zh'
-        ? ['内容编辑器', '标签分类', '评论系统', 'SEO友好']
-        : ['Content Editor', 'Tag Categories', 'Comment System', 'SEO Friendly'],
-      tag: ''
+        ? ['Flutter框架', 'iOS适配', 'Android适配', '现成UI']
+        : ['Flutter Framework', 'iOS Compatible', 'Android Compatible', 'Ready UI'],
+      tag: language === 'zh' ? '热门' : 'Popular',
+      image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_1/11379024/22354_159696.jpeg',
+      buyLink: 'https://fqmpprrl.aisupermall.com/index.php/product/ss-ss2/'
     },
   ];
 
@@ -144,8 +144,12 @@ const TemplatesCenter = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {templates.map((template) => (
               <Card key={template.id} className="bg-card border-border hover:border-primary/50 transition-all group overflow-hidden">
-                <div className="h-48 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center relative overflow-hidden">
-                  <Layers className="w-20 h-20 text-primary/30 group-hover:scale-110 transition-transform" />
+                <div className="h-64 relative overflow-hidden">
+                  <img 
+                    src={template.image} 
+                    alt={template.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                   {template.tag && (
                     <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">
                       {template.tag}
@@ -170,8 +174,12 @@ const TemplatesCenter = () => {
                       </div>
                     ))}
                   </div>
-                  <Button variant="secondary" className="w-full">
-                    {language === 'zh' ? '查看详情' : 'View Details'}
+                  <Button 
+                    variant="secondary" 
+                    className="w-full"
+                    onClick={() => window.open(template.buyLink, '_blank')}
+                  >
+                    {language === 'zh' ? '立即购买' : 'Buy Now'}
                   </Button>
                 </CardContent>
               </Card>
