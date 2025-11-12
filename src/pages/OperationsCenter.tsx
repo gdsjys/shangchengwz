@@ -115,8 +115,10 @@ const OperationsCenter = () => {
                 ? '我们的团队将根据您的业务特点，制定专属运营策略'
                 : 'Our team will develop exclusive operations strategies based on your business characteristics'}
             </p>
-            <Button size="lg" className="bg-gradient-primary">
-              {language === 'zh' ? '咨询专家' : 'Consult Expert'}
+            <Button size="lg" className="bg-gradient-primary" asChild>
+              <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                {language === 'zh' ? '咨询专家' : 'Consult Expert'}
+              </a>
             </Button>
           </CardContent>
         </Card>

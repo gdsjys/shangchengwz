@@ -226,7 +226,7 @@ const WhitelabelCenter = () => {
                     </ul>
                   </div>
                   <Button className="w-full bg-gradient-primary" size="lg" asChild>
-                    <a href="https://t.me/ximi1688" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
                       {language === 'zh' ? '立即购买' : 'Buy Now'}
                     </a>
                   </Button>
@@ -281,7 +281,7 @@ const WhitelabelCenter = () => {
         {/* Contact CTA */}
         <div className="text-center">
           <Button size="lg" className="bg-gradient-primary" asChild>
-            <a href="https://t.me/ximi1688" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
               {language === 'zh' ? '联系客服' : 'Contact Customer Service'}
             </a>
           </Button>

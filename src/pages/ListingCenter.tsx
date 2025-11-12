@@ -127,8 +127,10 @@ const ListingCenter = () => {
         </Card>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-gradient-primary">
-            {language === 'zh' ? '开始上架' : 'Start Listing'}
+          <Button size="lg" className="bg-gradient-primary" asChild>
+            <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+              {language === 'zh' ? '开始上架' : 'Start Listing'}
+            </a>
           </Button>
         </div>
       </div>

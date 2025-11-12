@@ -64,8 +64,10 @@ const DeveloperCenter = () => {
               <CardContent>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-semibold text-primary">{account.price}</span>
-                  <Button variant="secondary">
-                    {language === 'zh' ? '了解详情' : 'Learn More'}
+                  <Button variant="secondary" asChild>
+                    <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                      {language === 'zh' ? '了解详情' : 'Learn More'}
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -113,8 +115,10 @@ const DeveloperCenter = () => {
                 ? '我们支持多个开发平台的账号服务，欢迎咨询'
                 : 'We support account services for multiple development platforms, feel free to inquire'}
             </p>
-            <Button size="lg" className="bg-gradient-primary">
-              {language === 'zh' ? '立即咨询' : 'Inquire Now'}
+            <Button size="lg" className="bg-gradient-primary" asChild>
+              <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                {language === 'zh' ? '立即咨询' : 'Inquire Now'}
+              </a>
             </Button>
           </CardContent>
         </Card>

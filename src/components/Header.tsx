@@ -21,6 +21,7 @@ export const Header = () => {
     { path: '/whitelabel', label: t('whitelabelCenter') },
     { path: '/nodes', label: t('nodeCenter') },
     { path: '/about', label: t('aboutUs') },
+    { path: '/faq', label: t('faq') },
   ];
 
   const moreNavItems = [

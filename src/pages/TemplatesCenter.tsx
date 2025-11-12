@@ -113,9 +113,11 @@ const TemplatesCenter = () => {
                   <Button 
                     variant="secondary" 
                     className="w-full"
-                    onClick={() => window.open(template.buyLink, '_blank')}
+                    asChild
                   >
-                    {language === 'zh' ? '立即购买' : 'Buy Now'}
+                    <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                      {language === 'zh' ? '立即购买' : 'Buy Now'}
+                    </a>
                   </Button>
                 </CardContent>
               </Card>
@@ -173,8 +175,10 @@ const TemplatesCenter = () => {
                     ? '我们提供定制UI设计服务，为您量身打造专属模板'
                     : 'We provide custom UI design services to create exclusive templates for you'}
                 </p>
-                <Button size="lg" className="bg-gradient-primary">
-                  {language === 'zh' ? '定制模板' : 'Custom Template'}
+                <Button size="lg" className="bg-gradient-primary" asChild>
+                  <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                    {language === 'zh' ? '定制模板' : 'Custom Template'}
+                  </a>
                 </Button>
               </div>
               <div className="space-y-3">

@@ -60,8 +60,10 @@ const CustomCenter = () => {
                   ? '我们提供专业的定制模板，满足您的各种需求'
                   : 'We provide professional custom templates to meet your various needs'}
               </p>
-              <Button size="lg" className="bg-gradient-primary">
-                {language === 'zh' ? '立即咨询客服' : 'Contact Customer Service'}
+              <Button size="lg" className="bg-gradient-primary" asChild>
+                <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                  {language === 'zh' ? '立即咨询客服' : 'Contact Customer Service'}
+                </a>
               </Button>
             </div>
           </CardContent>
@@ -173,8 +175,10 @@ const CustomCenter = () => {
           <h3 className="text-2xl font-bold mb-4">
             {language === 'zh' ? '极速开发 实现梦想' : 'Fast Development, Realize Dreams'}
           </h3>
-          <Button size="lg" className="bg-gradient-primary">
-            {language === 'zh' ? '开发咨询' : 'Development Consultation'}
+          <Button size="lg" className="bg-gradient-primary" asChild>
+            <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+              {language === 'zh' ? '开发咨询' : 'Development Consultation'}
+            </a>
           </Button>
         </div>
       </div>

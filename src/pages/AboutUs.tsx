@@ -181,7 +181,7 @@ const AboutUs = () => {
                 {language === 'zh' ? '电报社群：' : 'Telegram Group: '}t.me/vpndevelop
               </div>
               <div className="text-sm opacity-90">
-                {language === 'zh' ? '客服联系：' : 'Customer Service: '}t.me/ximi1688
+                {language === 'zh' ? '客服联系：' : 'Customer Service: '}t.me/gaoshengsm
               </div>
             </div>
           </CardContent>

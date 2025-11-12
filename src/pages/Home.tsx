@@ -211,11 +211,15 @@ const Home = () => {
               </p>
 
               <div className="flex gap-4 pt-4">
-                <Button size="lg" variant="outline" className="border-2">
-                  {t('getStarted')}
+                <Button size="lg" variant="outline" className="border-2" asChild>
+                  <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                    {t('getStarted')}
+                  </a>
                 </Button>
-                <Button size="lg" variant="outline" className="border-2">
-                  {t('learnMore')}
+                <Button size="lg" variant="outline" className="border-2" asChild>
+                  <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                    {t('learnMore')}
+                  </a>
                 </Button>
               </div>
             </div>

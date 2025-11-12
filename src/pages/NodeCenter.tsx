@@ -173,8 +173,10 @@ const NodeCenter = () => {
                 <div className="border-t border-border pt-4">
                   <p className="text-sm text-muted-foreground mb-1">{plan.period}</p>
                   <p className="text-3xl font-bold mb-4">{plan.price}</p>
-                  <Button className="w-full bg-foreground text-background hover:bg-foreground/90">
-                    {plan.buttonText}
+                  <Button className="w-full bg-foreground text-background hover:bg-foreground/90" asChild>
+                    <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                      {plan.buttonText}
+                    </a>
                   </Button>
                 </div>
               </CardHeader>
@@ -257,8 +259,10 @@ const NodeCenter = () => {
           </div>
 
           <div className="text-center">
-            <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90">
-              {language === 'zh' ? '联系客服' : 'Contact Support'}
+            <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90" asChild>
+              <a href="https://t.me/gaoshengsm" target="_blank" rel="noopener noreferrer">
+                {language === 'zh' ? '联系客服' : 'Contact Support'}
+              </a>
             </Button>
           </div>
         </div>
